@@ -44,3 +44,42 @@ print(json_data)
 
 Finally, put this json into [a.js](https://github.com/altilunium/wikiidmon/blob/main/jan24/a.js)
 
+#### Optional : User Collab Stat
+Use this script to generate user collab stat.
+
+~~~python
+import sys
+import json
+
+sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8')
+d = dict()
+dd = dict()
+
+with open('all_act.txt', 'r', encoding='utf-8') as file:
+    line = file.readline()
+    while line:
+        nya = line.split("\t")
+        d[nya[0]] = dict()
+        d[nya[0]]["a"] = nya[1]
+        d[nya[0]]["l"] = len(nya[1].split(";"))
+        line = file.readline()
+        for i in nya[1].split(";"):
+            if i not in dd:
+                dd[i] = dict()
+                dd[i]["a"] = set()
+                dd[i]["a"].add(nya[0])
+                dd[i]["l"] = len(dd[i]["a"])
+            else:
+                dd[i]["a"].add(nya[0])
+                dd[i]["l"] = len(dd[i]["a"]) 
+
+sorted_dict = dict(sorted(dd.items(), key=lambda x: x[1]["l"], reverse=True))   
+
+for nya in sorted_dict:
+    sorted_dict[nya]["a"] = list(sorted_dict[nya]["a"])
+
+json_data = json.dumps(sorted_dict)
+print(json_data)
+~~~
+Put this json to [b.js](https://github.com/altilunium/wikiidmon/tree/main/jan24), access it by using pco.html
+
