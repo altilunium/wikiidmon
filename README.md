@@ -1,7 +1,8 @@
 # wikiidmon
 Indonesian Wikipedia Monthly User Activity Dashboard
 
-https://altilunium.github.io/wikiidmon/jan24/
+* [January 2024 (user stat)](https://altilunium.github.io/wikiidmon/jan24/)
+* [January 2024 (page stat)](https://altilunium.github.io/wikiidmon/jan24/pco.html)
 
 ## How to Use
 Click the username to get the details
