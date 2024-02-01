@@ -8,5 +8,38 @@ Click the username to get the details
 
 https://github.com/altilunium/wikiidmon/assets/70379302/d74a35b5-18fd-4e06-ba5e-4eddc098bc01
 
+## How It Works
 
+Open the [WmCloud Superset Instance](https://superset.wmcloud.org/) to access `idwiki_p` schema at Wikimedia S2 database. Then, execute this query :
+
+~~~sql
+select actor_name, group_concat(distinct rc_title separator ';') as nya
+from recentchanges join actor where rc_actor = actor_id and rc_timestamp >= 20240101000000 and rc_timestamp <= 20240201000000
+group by actor_name 
+~~~
+
+> P.S. : You can configure the time window according to your own needs
+
+After the result is generated, click "copy to clipboard", paste it to a file (all_act.txt), then convert this file into json by using this python script : 
+
+~~~python
+import sys
+import json
+sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8')
+d = dict()
+
+with open('all_act.txt', 'r', encoding='utf-8') as file:
+    line = file.readline()
+    while line:
+        nya = line.split("\t")
+        d[nya[0]] = dict()
+        d[nya[0]]["a"] = nya[1]
+        d[nya[0]]["l"] = len(nya[1].split(";"))
+        line = file.readline()
+sorted_dict = dict(sorted(d.items(), key=lambda x: x[1]["l"], reverse=True)) 
+json_data = json.dumps(sorted_dict)
+print(json_data)
+~~~
+
+Finally, put this json into [a.js](https://github.com/altilunium/wikiidmon/blob/main/jan24/a.js)
 
