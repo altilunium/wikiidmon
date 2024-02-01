@@ -83,3 +83,27 @@ print(json_data)
 ~~~
 Put this json to [b.js](https://github.com/altilunium/wikiidmon/tree/main/jan24), access it by using pco.html
 
+#### Optional : Monthly Pageview Statistics
+Get the top 1000 most visited articles from id.wikipedia for all days in specified month as JSON data:
+```
+https://wikimedia.org/api/rest_v1/metrics/pageviews/top/id.wikipedia/all-access/2024/01/all-days
+```
+
+Copy the JSON data, execute this python script.
+~~~python
+import sys
+sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8')
+nya = PASTE_THE_JSON_DATA_HERE
+rank = 1
+print("== Pageview ==")
+print("{| class='wikitable'")
+print("!rank!!rc_title!!pageview")
+print("|-")
+for i in nya:
+	for j in nya[i][0]["articles"]:
+		strs = "|"+str(rank)+"||"+"[["+str(j["article"])+"]]||"+str(j["views"])
+		print(strs)
+		print("|-")
+		rank = rank + 1
+print("|}")
+~~~
