@@ -1,0 +1,69 @@
+<style>
+
+#bner{
+	position:fixed;
+	right:0px;
+	top:0px;
+	overflow: auto;
+	height: 100%;
+}
+
+p {
+	margin:0px;
+}
+
+</style>
+
+<div id="cner">
+</div>
+<div id="bner">
+</div>
+
+<script>
+
+var a
+fetch('a.js')
+  .then(response => response.json())
+  .then(data => {
+    // Access the data
+    a = data
+
+
+var outputDiv = document.getElementById("cner");
+
+var ss = ""
+
+for (let nya in a) {
+    //console.log(nya, a[nya]["l"]);
+    //console.log(a[nya]["a"]);
+    ss = ss + "<p class='c' id='"+nya+"'>"  + nya + " : " + a[nya]["l"] + "</p>"
+}
+
+
+outputDiv.innerHTML = ss
+
+
+var paragraphs = document.getElementsByClassName("c");
+for (var i = 0; i < paragraphs.length; i++) {
+      paragraphs[i].addEventListener("click", function() {
+        var id = this.id;
+        console.log("Clicked paragraph id:", id);
+        var outputDiv = document.getElementById("bner");
+        var zz = "<b>" + id + "</b><br>"
+        a[id]["a"] = a[id]["a"].split(",") 
+        for (let nya in a[id]["a"]){
+            zz = zz + "<a href='https://id.wikipedia.org/wiki/"+ a[id]["a"][nya] +"'>" +  a[id]["a"][nya] + "</a><br>"
+        }
+        outputDiv.innerHTML = zz
+        outputDiv.scrollTop = 0;
+      });
+    }
+
+
+
+  });
+
+
+
+
+</script>
