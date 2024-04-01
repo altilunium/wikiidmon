@@ -7,7 +7,8 @@ Indonesian Wikipedia Monthly User Activity Dashboard
 * [February 2024 (user stat)](https://altilunium.github.io/wikiidmon/2024/feb/)
 * [February 2024 (user collab stat)](https://altilunium.github.io/wikiidmon/2024/feb/pco.html)
 * March 2024
-  * [Pageview](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pagewrite.txt)
 
 ## How to Use
 Click the username to get the details
