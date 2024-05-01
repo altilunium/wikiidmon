@@ -10,6 +10,9 @@ Indonesian Wikipedia Monthly User Activity Dashboard
   * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
   * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pagewrite.txt)
   * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/user.txt)
+* April 2024
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/pagewrite.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/user.txt)
 
 ## How to Use
 Click the username to get the details
