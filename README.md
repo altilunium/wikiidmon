@@ -1,11 +1,14 @@
 # wikiidmon
 Indonesian Wikipedia Monthly User Activity Dashboard
 
-* [January 2024 (user stat)](https://altilunium.github.io/wikiidmon/jan24/)
-* [January 2024 (user collab stat)](https://altilunium.github.io/wikiidmon/jan24/pco.html)
-* [February 2024 (popular pages)](https://github.com/altilunium/wikiidmon/blob/main/2024/feb.txt)
-* [February 2024 (user stat)](https://altilunium.github.io/wikiidmon/2024/feb/)
-* [February 2024 (user collab stat)](https://altilunium.github.io/wikiidmon/2024/feb/pco.html)
+* January 2024
+  * [User](https://altilunium.github.io/wikiidmon/jan24/)
+  * [User collab](https://altilunium.github.io/wikiidmon/jan24/pco.html)
+  * [Pages](https://id.wikipedia.org/wiki/Pengguna:Rtnf/Statistik_Januari_2024)
+* February 2024 
+  * [User](https://altilunium.github.io/wikiidmon/2024/feb/)
+  * [User collab](https://altilunium.github.io/wikiidmon/2024/feb/pco.html)
+  * [Pages](https://github.com/altilunium/wikiidmon/blob/main/2024/feb.txt)
 * March 2024
   * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
   * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pagewrite.txt)
