@@ -1,28 +1,6 @@
 # wikiidmon
 Indonesian Wikipedia Monthly User Activity Dashboard
 
-* January 2024
-  * [User](https://altilunium.github.io/wikiidmon/jan24/)
-  * [User collab](https://altilunium.github.io/wikiidmon/jan24/pco.html)
-  * [Pages](https://id.wikipedia.org/wiki/Pengguna:Rtnf/Statistik_Januari_2024)
-* February 2024 
-  * [User](https://altilunium.github.io/wikiidmon/2024/feb/)
-  * [User collab](https://altilunium.github.io/wikiidmon/2024/feb/pco.html)
-  * [Pages](https://github.com/altilunium/wikiidmon/blob/main/2024/feb.txt)
-* March 2024
-  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
-  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pagewrite.txt)
-  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/user.txt)
-* April 2024
-  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/pageview.txt)
-  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/pagewrite.txt)
-  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/user.txt)
-* Mei 2024
-  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pageview.txt)
-  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pagewrite.txt)
-  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/user.txt)
-
-
 ## How to Use
 Click the username to get the details
 
@@ -126,3 +104,29 @@ for i in nya:
 		rank = rank + 1
 print("|}")
 ~~~
+
+## Compiled statistics
+* January 2024
+  * [User](https://altilunium.github.io/wikiidmon/jan24/)
+  * [User collab](https://altilunium.github.io/wikiidmon/jan24/pco.html)
+  * [Pages](https://id.wikipedia.org/wiki/Pengguna:Rtnf/Statistik_Januari_2024)
+* February 2024 
+  * [User](https://altilunium.github.io/wikiidmon/2024/feb/)
+  * [User collab](https://altilunium.github.io/wikiidmon/2024/feb/pco.html)
+  * [Pages](https://github.com/altilunium/wikiidmon/blob/main/2024/feb.txt)
+* March 2024
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pageview.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/pagewrite.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mar/user.txt)
+* April 2024
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/pageview.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/pagewrite.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/apr/user.txt)
+* May 2024
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pageview.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pagewrite.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/user.txt)
+# June 2024 
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/read.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/write.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/user.txt) 
