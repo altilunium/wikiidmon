@@ -126,7 +126,7 @@ print("|}")
   * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pageview.txt)
   * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/pagewrite.txt)
   * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/mei/user.txt)
-# June 2024 
+* June 2024 
   * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/read.txt)
   * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/write.txt)
   * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/user.txt) 
