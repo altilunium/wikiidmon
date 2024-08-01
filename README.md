@@ -129,4 +129,8 @@ print("|}")
 * June 2024 
   * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/read.txt)
   * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/write.txt)
-  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/user.txt) 
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/jun/user.txt)
+* July 2024
+  * [Pageread](https://github.com/altilunium/wikiidmon/blob/main/2024/jul/view.txt)
+  * [Pagewrite](https://github.com/altilunium/wikiidmon/blob/main/2024/jul/page.txt)
+  * [User](https://github.com/altilunium/wikiidmon/blob/main/2024/jul/user.txt)
