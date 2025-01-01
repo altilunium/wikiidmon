@@ -105,6 +105,38 @@ for i in nya:
 print("|}")
 ~~~
 
+## Other queries
+~~~sql
+select  * /*sum(tdif)*/ 
+from 
+(select
+actor_name,
+sum( cast(rc_new_len as int) - cast(rc_old_len as int)) tdif
+from recentchanges_userindex
+left join actor on rc_actor = actor_id
+where rc_timestamp >= 20241201000000 and rc_timestamp <= 20250101000000  and rc_bot = 0 and (rc_source = 'mw.new' or rc_source='mw.edit') 
+ 
+ group by actor_name) a 
+where tdif >= 30000
+order by tdif desc
+~~~
+
+~~~sql
+select *
+from 
+(select
+rc_title,
+sum( cast(rc_new_len as int) - cast(rc_old_len as int)) tdif
+from recentchanges_userindex
+where rc_timestamp >= 20241201000000 and rc_timestamp <= 20250101000000  and rc_bot = 0 and (rc_source = 'mw.new' or rc_source='mw.edit') 
+ group by rc_title) a 
+where tdif > 30000
+order by tdif desc
+~~~
+
+
+
+
 ## Compiled statistics
 * January 2024
   * [User](https://altilunium.github.io/wikiidmon/jan24/)
