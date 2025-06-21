@@ -1,3 +1,7 @@
+> To evaluate contributors' performance across multiple months in 2025, a MotoGP-style ranking system is applied to monthly contribution data. In this system, the top 15 contributors for each month receive points based on the standard MotoGP scoring format: 25 points for 1st place, 20 for 2nd, 16 for 3rd, followed by 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, and 1 point for 15th place. Contributors ranked beyond 15th place, while not eligible for full MotoGP points, still receive a small fractional score equal to 1 divided by their ranking position (e.g., 1/16 for 16th place). These monthly scores are accumulated to form a total MotoGP score for the year. In addition, each user's raw contribution (in bytes) is also summed across all months to calculate their total contribution volume. Notably, to be included in any month's ranking, a contributor must have added at least 30,000 bytes of content during that month. 
+
+
+
 | Rank | Name                            | Score | Total Points     |
 |------|----------------------------------|---------------|------------------|
 | 1    | Ariandi Lie                      |       110.000 |     13,677,745.0 |
