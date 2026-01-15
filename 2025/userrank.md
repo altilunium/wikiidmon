@@ -1,6 +1,4 @@
-> To evaluate contributors' performance across multiple months in 2025, a MotoGP-style ranking system is applied to monthly contribution data. In this system, the top 15 contributors for each month receive points based on the standard MotoGP scoring format: 25 points for 1st place, 20 for 2nd, 16 for 3rd, followed by 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, and 1 point for 15th place. Contributors ranked beyond 15th place, while not eligible for full MotoGP points, still receive a small fractional score equal to 1 divided by their ranking position (e.g., 1/16 for 16th place). These monthly scores are accumulated to form a total MotoGP score for the year. In addition, each user's raw contribution (in bytes) is also summed across all months to calculate their total contribution volume. Notably, to be included in any month's ranking, a contributor must have added at least 30,000 bytes of content during that month.
-
-| Rank | Name | MotoGP Score | Total Points | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 | M9 | M10 | M11 | M12 |
+| Rank | Name | Score | Total Points | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 | M9 | M10 | M11 | M12 |
 |------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
 | 1 | Kayanad | 199.000 | 27,070,859.0 | 3 | 4 | 4 | 1 | 5 | 2 | 4 | 1 | 4 | 1 | 11 | 2 |
 | 2 | Muhammad Anas Sidik | 141.050 | 16,147,583.0 | 8 | 5 | 6 | 5 | 3 | 3 | 3 | 6 | 5 | 3 | 20 | 3 |
@@ -854,3 +852,6 @@
 | 850 | Andalusiao | 0.005 | 30,783.0 | NA | NA | NA | NA | NA | NA | NA | NA | 208 | NA | NA | NA |
 | 851 | Ahmadrozaq | 0.005 | 30,716.0 | NA | NA | NA | NA | NA | NA | NA | NA | 210 | NA | NA | NA |
 | 852 | ~2025-57871-0 | 0.005 | 30,237.0 | NA | NA | NA | NA | NA | NA | NA | NA | 213 | NA | NA | NA |
+
+> To evaluate contributors' performance across multiple months in 2025, a MotoGP-style ranking system is applied to monthly contribution data. In this system, the top 15 contributors for each month receive points based on the standard MotoGP scoring format: 25 points for 1st place, 20 for 2nd, 16 for 3rd, followed by 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, and 1 point for 15th place. Contributors ranked beyond 15th place, while not eligible for full MotoGP points, still receive a small fractional score equal to 1 divided by their ranking position (e.g., 1/16 for 16th place). These monthly scores are accumulated to form a total MotoGP score for the year. In addition, each user's raw contribution (in bytes) is also summed across all months to calculate their total contribution volume. Notably, to be included in any month's ranking, a contributor must have added at least 30,000 bytes of content during that month.
+
